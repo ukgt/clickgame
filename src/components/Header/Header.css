@@ -3,12 +3,14 @@
          font-size: 2rem;
          color: #2A77AE;
          margin-bottom: 10px;
+         padding: 10px;
     }
 
     .title {
          float: left;
     }
 
-    .scores {
+    .score {
          float: right;
+         margin-right: 80px;
     }

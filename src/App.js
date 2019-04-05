@@ -1,15 +1,23 @@
 import React, { Component } from "react";
-import Header from "./components/HeaderHeader";
-// import tiles from "tiles.json"
+import Header from "./components/Header";
+import tiles from "tiles.json"
 import "./App.css";
-
+import Wrapper from "./components/Wrapper";
 
 class App extends Component {
   state = {
-    // tiles
+    tiles
     score: 0,
-    totalscore:0
-  }
-  }
+    totalscore: 0
+  };
 
-  export default App
+  render() {
+    return <>
+    <Header />
+    <Wrapper />
+    <Tiles />
+    </>
+  }
+}
+
+export default App;
